@@ -27,7 +27,7 @@ public class WalletUpdate {
     	GlobalValueDriver gd = new GlobalValueDriver();
 		RestAssured.baseURI= gd.baseURL;
 	 response = RestAssured.given().log().all().header("Content-Type", "application/json").body(request).when().
-			 post("WalletUpdate").then().assertThat().statusCode(200).extract().response().asString();
+			 post("walletUpdate").then().assertThat().statusCode(200).extract().response().asString();
     }
 
     @Then("^User should get the 200 status code with amount added successfully (.+)$")

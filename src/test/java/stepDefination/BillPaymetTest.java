@@ -32,7 +32,7 @@ public class BillPaymetTest {
 	    	GlobalValueDriver gd = new GlobalValueDriver();
 	    	RestAssured.baseURI= gd.baseURL;
 	    	String BillValue =RestAssured.given().log().all()
-	    			.when().get("GetBill")
+	    			.when().get("getBill")
 	    			.then().assertThat().log().all().statusCode(200).extract().response().asString();
 	    }
 
