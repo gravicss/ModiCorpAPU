@@ -1,0 +1,13 @@
+Test Strategy
+Test case is run using Test Runner file
+Feature file contains all the test steps
+
+flow to follow for test run
+1. UserCreation and validation
+2. Wallet Update
+3. Bill Payment
+
+reporting is done by extent reporting, Find the reports in  reports folder
+use tidy gherkins to update the Step defination file
+any update in request format is handle by POJO classes
+
