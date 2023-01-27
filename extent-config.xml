@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <reportName>Cucumber Extent Report</reportName>
+        <reportTitle>Cucumber Extent Report</reportTitle>
+        <documentTitle>Cucumber Extent Report</documentTitle>
+        <reportPath>target/cucumber-reports/extent-report.html</reportPath>
+        <encoding>UTF-8</encoding>
+        <timeStampFormat>yyyy-MM-dd-HH-mm-ss-ms</timeStampFormat>
+        <theme>standard</theme>
+        <protocol>http</protocol>
+    </configuration>
+</extentreports>
